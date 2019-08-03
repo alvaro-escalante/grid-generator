@@ -1,0 +1,23 @@
+doctype html
+html(lang='en')
+  head
+    title Grid Generator
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+
+    link(rel='stylesheet', type='text/css', href='static/css/styles.min.css')
+  body
+    main
+      .row.align-center         
+        .col-xs-12.col-sm-10.offset-sm-1.col-md-8.offset-md-2
+          p Using #[code grids.scss] in a mobile first fashion to compute the number of columns based on html classes starting with #[code .col-] followed by the break point #[code -xs] for mobile #[code -sm] for tablet and #[code -md] for desktop and finally the ammount of columns that required #[code -12] for a full set, #[code -6] for half and so on, and the option to add offset by using the class e.j: #[code .offset-md-2]
+      .row
+        .col-xs-12.col-sm-6.col-md-4
+          h2 1 mobile, 2 tablet, 3 desktop
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ratione aspernatur ea fugiat sapiente obcaecati dicta nulla, aperiam. Modi omnis debitis libero, eaque porro odit eum itaque saepe perspiciatis facilis.
+        .col-xs-12.col-sm-6.col-md-4
+          h2 1 mobile, 2 tablet, 3 desktop
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ratione aspernatur ea fugiat sapiente obcaecati dicta nulla, aperiam. Modi omnis debitis libero, eaque porro odit eum itaque saepe perspiciatis facilis.        
+        .col-xs-12.col-sm-12.col-md-4
+          h2 1 mobile, 1 tablet, 3 desktop
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ratione aspernatur ea fugiat sapiente obcaecati dicta nulla, aperiam. Modi omnis debitis libero, eaque porro odit eum itaque saepe perspiciatis facilis.
